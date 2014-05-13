@@ -32,3 +32,9 @@ Bash script to autointall Modx Evo in server (with ispmanager panel)
 
 также настроить, откуда копировать modx - источник
 в скрипте **modx_add_pevm.sh**, заменитье домен pevm.ru на ваш, и путь к сайту образцу
+
+
+****
+Тема с описанием http://modx.im/blog/research/476.html
+Видео презентация
+http://www.youtube.com/watch?v=5EyRyv6zd1M
