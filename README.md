@@ -5,6 +5,12 @@ Bash script to autointall Modx Evo in server (with ispmanager panel)
 Скрипт автоустановки (обновления) MODX Evo на сервере через консоль ssh.
 Используется api ispmanager lite
 
+Скрипт берет по умолчанию устновленный modx на каком либо домене (у меня pevm.ru) и позволяет его скопировать на новый домен.
+Причем в панеле надо сперва создать пользователя и www domen.
+
+Затем запускать скрипт **modx.sh -a vash-domen-kuda-stavit.ru**
+
+
 Запускать надо *modx.sh* 
 Для удобства сделайте симлинк на него, в папку /usr/local/bin например
 
@@ -21,4 +27,8 @@ Bash script to autointall Modx Evo in server (with ispmanager panel)
 *****
 Настройка:
 надо указать root пароль от mysql базы в файле
-automodx / lib / pass.sh 
+**automodx / lib / pass.sh** 
+
+
+также настроить, откуда копировать modx - источник
+в скрипте **modx_add_pevm.sh**, заменитье домен pevm.ru на ваш, и путь к сайту образцу
