@@ -1,0 +1,9 @@
+# For unexpected logouts in multi-server/cloud environments see:
+# http://rtfm.modx.com/evolution/1.0/administration/friendly-url-solutions
+
+RewriteEngine Off
+
+<IfModule mod_security.c>
+# Turn the filtering engine Off
+SecFilterEngine Off
+</IfModule>
