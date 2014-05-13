@@ -2,6 +2,7 @@ automodx
 ========
 
 Bash script to autointall Modx Evo in server (with ispmanager panel) 
+
 Скрипт автоустановки (обновления) MODX Evo на сервере через консоль ssh.
 Используется api ispmanager lite
 
