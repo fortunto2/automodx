@@ -36,5 +36,9 @@ Bash script to autointall Modx Evo in server (with ispmanager panel)
 
 ****
 Тема с описанием http://modx.im/blog/research/476.html
+
 Видео презентация
 http://www.youtube.com/watch?v=5EyRyv6zd1M
+
+****
+По вопросам установки пишите на info@3dstr.ru
